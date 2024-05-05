@@ -1,0 +1,30 @@
+.sourcefy-header {
+  padding: 72px 0 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+
+  @media (max-width: 1024px) {
+    padding: 18px 0;
+  }
+
+  .sourcefy-logo {
+    width: 141px;
+    display: block;
+
+    @media (max-width: 1024px) {
+      width: 100px;
+    }
+
+    a {
+      display: block;
+    }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.input-field {
+  .ReactFlagsSelect-module_selectBtn__19wW7 {
+    border: none;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+    font-size: 14px;
+    color: #131620;
+    position: relative;
+  }
+
+  .country-select {
+    position: relative;
+
+    .chevron-down {
+      position: absolute;
+      bottom: 18px;
+      right: 15px;
+    }
+  }
+
+  .ReactFlagsSelect-module_selectBtn__19wW7:after {
+    display: none;
+  }
+
+  .ReactFlagsSelect-module_selectBtn__19wW7[aria-expanded="true"]:after {
+    display: none;
+  }
+}

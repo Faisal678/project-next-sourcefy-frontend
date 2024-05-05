@@ -1,0 +1,52 @@
+.information {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px;
+
+  .info-area {
+    display: flex;
+  }
+
+  .info-number {
+    min-width: 76px;
+  }
+
+  .info-border {
+    border-top: 2px dashed #e0e0e0;
+    max-width: 95px;
+    width: 100%;
+    margin: 15px 0 0 0;
+  }
+
+  .info-number-area {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0 auto 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #a3a3a3;
+    color: #a3a3a3;
+  }
+
+  .info-text {
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 600;
+    color: #a3a3a3;
+  }
+
+  .info-number-active {
+    .info-number-area {
+      border: 1px solid #1a1a1a;
+      color: #1a1a1a;
+    }
+    .info-text {
+      color: #1a1a1a;
+    }
+  }
+}

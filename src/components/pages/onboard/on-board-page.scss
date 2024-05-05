@@ -1,0 +1,35 @@
+.on-board-page {
+    min-height: 100vh;
+    background-color: #F3F8F4;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .sourcefy-info-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1084px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .info-block {
+        max-width: 454px;
+        width: 100%;
+        background: #fff;
+        border-radius: 16px;
+    }
+
+    .info-block-area {
+        padding: 24px 20px;
+    }
+
+    .info-block-btn {
+        display: block;
+        width: 100%;
+        margin: 20px 0 0;
+    }
+}

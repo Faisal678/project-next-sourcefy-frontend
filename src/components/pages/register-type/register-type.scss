@@ -1,0 +1,254 @@
+.join-sourcefy {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #e5fff0;
+  padding: 125px 20px 60px;
+
+  @media (max-width: 1024px) {
+    padding: 80px 20px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 80px 20px 60px;
+  }
+
+  @media (max-width: 576px) {
+    padding: 80px 20px 40px;
+  }
+
+  .sourcefy-radio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sourcefy-radio-area {
+    display: flex;
+    justify-content: stretch;
+    max-width: 845px;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    margin: 0 -8px 38px;
+    padding: 0;
+
+    @media (max-width: 767px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 0 10px;
+    }
+  }
+
+  .sourcefy-join {
+    padding: 0 8px;
+    max-width: 282px;
+    width: 100%;
+    min-height: 100%;
+
+    @media (max-width: 767px) {
+      margin: 0 0 16px;
+    }
+  }
+
+  .sourcefy-join-area {
+    border: 1px solid #dbdade;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+
+    input[type="radio"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-width: 267px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .select-radio {
+    border: 1px solid #33C653;
+  }
+
+  .job-name {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.27;
+    margin: 6px 0 10px;
+
+    @media (max-width: 1024px) {
+      font-size: 18px;
+    }
+  }
+
+  .job-title {
+    color: #979797;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 10px;
+    text-align: center;
+
+    @media (max-width: 1024px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.join-sourcefy-area {
+  background-color: #fff;
+  max-width: 1236px;
+  margin: 0 auto;
+  border: 1px solid #e2e2e2;
+  border-radius: 15px;
+  padding: 75px 50px 78px;
+
+  @media (max-width: 1024px) {
+    padding: 60px 30px;
+  }
+
+  @media (max-width: 767px) {
+    padding: 40px 30px;
+  }
+
+  @media (max-width: 576px) {
+    padding: 30px 20px;
+  }
+
+  .join-sourcefy-heading {
+    margin: 0 0 28px;
+    text-align: center;
+
+    h4 {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 1.35;
+      margin: 0;
+
+      @media (max-width: 1024px) {
+        font-size: 28px;
+      }
+
+      @media (max-width: 767px) {
+        font-size: 24px;
+      }
+
+      @media (max-width: 576px) {
+        padding: 18px;
+        line-height: 1;
+      }
+    }
+  }
+}
+
+.create-account-btn {
+  text-align: center;
+
+  .button {
+    padding: 14px 20px;
+    max-width: 345px;
+    width: 100%;
+    line-height: 1.341;
+    font-weight: 400;
+  }
+
+  .account-login-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 0;
+    padding: 0 22px 0 0;
+
+    @media (max-width: 767px) {
+      margin: 20px 0 0;
+    }
+
+    @media (max-width: 576px) {
+      margin: 10px 0 0;
+      font-size: 14px;
+    }
+  }
+
+  .acount-login {
+    margin: 0 10px 0 0;
+  }
+
+  .login-anchor {
+    color: #33C653;
+    transition: 0.4s;
+
+    &:hover {
+      color: darken($color: #33C653, $amount: 10);
+    }
+  }
+}
+
+.social-area {
+  text-align: center;
+  padding: 70px 0 10px;
+
+  @media (max-width: 1024px) {
+    padding: 40px 0 0;
+  }
+
+  @media (max-width: 767px) {
+    padding: 30px 0 0;
+  }
+
+  @media (max-width: 576px) {
+    padding: 20px 0 0;
+  }
+
+  .social-text {
+    margin: 0 0 20px;
+    font-size: 20px;
+    line-height: 1.1;
+    display: block;
+  }
+
+  .social-networks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.social-icon {
+  width: 51px;
+  height: 51px;
+  border: 1px solid #33C653;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  transition: 0.4s;
+  margin: 0 8px;
+  cursor: pointer;
+
+  @media (max-width: 767px) {
+    width: 45px;
+    height: 45px;
+  }
+
+  svg {
+    color: #33C653;
+
+    @media (max-width: 767px) {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  &:hover {
+    background-color: #33C653;
+    transform: rotate(360deg);
+
+    svg {
+      color: #fff;
+    }
+  }
+}

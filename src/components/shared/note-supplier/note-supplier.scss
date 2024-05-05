@@ -1,0 +1,20 @@
+.note-text {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.64;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    padding: 20px 0 0;
+
+    @media (max-width: 767px) {
+      font-size: 18px;
+      line-height: 1.4;
+      padding: 10px 0 0;
+    }
+
+    @media (max-width: 576px) {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+  }

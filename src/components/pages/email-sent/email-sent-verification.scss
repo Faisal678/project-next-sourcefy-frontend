@@ -1,0 +1,48 @@
+.email-verification-area {
+  margin: 0 auto;
+  padding: 0 0 168px;
+
+  @media (max-width: 1024px) {
+    padding: 0;
+  }
+
+  .verification-message {
+    text-align: center;
+    h3 {
+      font-size: 26px;
+      font-weight: 500;
+      line-height: 1.34;
+      margin: 0 0 10px;
+
+      @media (max-width: 767px) {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      color: #a6a6a6;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.35;
+      margin: 0;
+
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.verification-sent-icon {
+  max-width: 184px;
+  margin: 0 auto 15px;
+
+  @media (max-width: 767px) {
+    max-width: 150px;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+  }
+}
